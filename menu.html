@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css
+    "integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+     crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+   <header class="main-header">
+     <div class="container container--flex">
+       <div class="logo-container column column--50">
+         <spa><h1 class="logo">Restaurante Bello Amanecer</h1></spa>
+       </div>
+
+       <div class="main-header_contactInfo column column--50">
+         <p class="main-header_contactInfo_phone">
+           <span class="fas fa-phone-volume">: (505)2244-9966</span>
+         </p>
+         <p class="main-header_contactInfo_address">
+           <span class="fas fa-map-marker-alt">: KM 5 carretera a Masaya, frente Banco LaFise</span>
+         </p>
+       </div>
+
+     </div>
+   </header>
+
+       <nav class="main-nav">
+         <div class="container container--flex">
+           <span id="btnmenu" class="fas fa-bars"></span>
+           <ul class="menu" id="menu">
+             <li class="menu_item"><a href="index.html" class="menu_link">Inicio</a></li>
+             <li class="menu_item"><a href="menu.html" class="menu_link menu_link--select">Menu</a></li>
+             <li class="menu_item"><a href="nosotros.html" class="menu_link">Nosotros</a></li>
+             <li class="menu_item"><a href="contactos.html" class="menu_link">Contactos</a></li>
+           </ul>
+           <div class="social-icon">
+             <a href="" class="social-icon_link"><span class="fab fa-facebook-f"></span></a>
+             <a href="" class="social-icon_link"><span class="fab fa-twitter"></span></a>
+             <a href="" class="social-icon_link"><span class="fab fa-instagram"></span></a>
+           </div>
+         </div>
+       </nav>
+
+  <section class="banner">
+    <img src="img/fondo-principal.jpg" alt="imagen1" class="banner_img">
+    <div class="banner_content">
+       Disfruta nuestros menu
+    </div>
+  </section>
+
+<div class="modal" id="modal">
+  <div class="modal_content">
+    <img id="modal_img" class="modal_img" src="" alt="">
+  </div>
+  <div id="modal_boton" class="modal_boton">X</div>
+</div>
+
+  <main class="main">
+   <div class="group gallery">
+     <h2 class="group_title">Nuestro Ofertas</h2>
+     <div class="container container--flex">
+       <div class="column column--50-25">
+         <img class="gallery_img gallery_img--big" src="img/menu1.jpg">
+         <img class="gallery_img gallery_img--small" src="img/menu2.jpg">
+       </div>
+       <div class="column column--50-25">
+         <img class="gallery_img gallery_img--small" src="img/menu3.jpg">
+         <img class="gallery_img gallery_img--big" src="img/menu5.jpg">
+       </div>
+       <div class="column column--50-25">
+         <img class="gallery_img gallery_img--big" src="img/imagen8.jpg">
+         <img class="gallery_img gallery_img--small" src="img/menu4.jpg">
+       </div>
+       <div class="column column--50-25">
+         <img class="gallery_img gallery_img--small" src="img/menu1.jpg">
+         <img class="gallery_img gallery_img--big" src="img/menu6.jpg">
+       </div>
+     </div>
+   </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container container--flex">
+      <div class="column column-33">
+        <h2 class="column_title">Coctactos</h2>
+        <span class="fas fa-map-marker-alt">Masaya, Paque Central</span><br>
+        <span class="fas fa-phone-volume">:(505)2255-8896</span><br><br>
+        <span class="fas fa-map-marker-alt">Granada, frente al pali una cuadra al sur</span><br>
+        <span class="fas fa-phone-volume"> :(505)2240-8996</span>
+      </div>
+
+        <div class="column column-33">
+          <h2 class="column_title">Ubicacion</h2>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d62412.616260777606!2d-86.315008!3d12.1266176!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sni!4v1547855810296" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+  </footer>
+
+  </body>
+  <script type="text/javascript" src="js/autor.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+   <script type="text/javascript" src="js/modal.js"></script>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.2';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</html>
